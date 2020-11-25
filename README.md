@@ -12,12 +12,13 @@ Learn using laravel 8
 <!-- 3. yarn install -->
 
 ### Ketentuan
-* branch master hanya untuk commit final untuk siap release (tiap release membuat branch version)
+* branch master hanya untuk merging 
+* branch master diperuntukan untuk critical change(harus merging dari branch dev) dan merging untuk setiap release final (tiap release membuat branch version)
 * gunakan branch dev untuk development
-* jika ingin melakukan experiment silahkan membuat branch baru pada branch dev
-* jangan pernah membuat modul secara langsung pada branch dev dan master
-* untuk experimental silahkan bebas membuatnya di pada branch dev
+* jika ingin melakukan experiment silahkan membuat branch baru pada branch dev(tidak boleh langsung commit pada branch dev)
+* jika experiment atau modul anda dirasa akan di implementasikan silahkan di merge ke branch dev
 * merge ke branch dev saat modul anda selesai di testing
+* jika serasa semua modul sudah cukup lakukan release ke branch master dan membuat branch versi appnya
 ##### 1. commit
 * Commit dilakukan perbundle, atau perbaikan bug dsb. 
 * diusahakan sedetail mungkin agar tracking mudah Contoh: 
