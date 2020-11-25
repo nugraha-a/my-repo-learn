@@ -1,15 +1,15 @@
-# UM Development
-Pengembangan web master untuk Ma'soem University
+# MY REPO LEARN
+Learn using laravel 8
 
 ## Requirement
-* nodejs latest lts version 14.15.*^
+<!-- * nodejs latest lts version 14.15.*^ -->
 * laravel 8 (included)
 * composer
 
 ## instalasi
 1. silahkan clone repo ini
 2. composer install
-3. yarn install
+<!-- 3. yarn install -->
 
 ### Ketentuan
 * branch master hanya untuk commit final untuk siap release (tiap release membuat branch version)
