@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d29a824fe1ba5e1a371425931ce19f0b",
+    "content-hash": "3b9c799fff22949ca00970c9003aca42",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1323,6 +1323,7 @@
         },
         {
             "name": "lcobucci/jwt",
+<<<<<<< HEAD
             "version": "3.4.0",
             "source": {
                 "type": "git",
@@ -1333,6 +1334,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/lcobucci/jwt/zipball/320b9f05741b24acbbaf1106ed267ff3817fd74d",
                 "reference": "320b9f05741b24acbbaf1106ed267ff3817fd74d",
+=======
+            "version": "3.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcobucci/jwt.git",
+                "reference": "c1123697f6a2ec29162b82f170dd4a491f524773"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/c1123697f6a2ec29162b82f170dd4a491f524773",
+                "reference": "c1123697f6a2ec29162b82f170dd4a491f524773",
+>>>>>>> auth-api
                 "shasum": ""
             },
             "require": {
@@ -1347,9 +1360,12 @@
                 "phpunit/phpunit": "^5.7 || ^7.3",
                 "squizlabs/php_codesniffer": "~2.3"
             },
+<<<<<<< HEAD
             "suggest": {
                 "lcobucci/clock": "*"
             },
+=======
+>>>>>>> auth-api
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1359,12 +1375,16 @@
             "autoload": {
                 "psr-4": {
                     "Lcobucci\\JWT\\": "src"
+<<<<<<< HEAD
                 },
                 "files": [
                     "compat/class-aliases.php",
                     "compat/json-exception-polyfill.php",
                     "compat/lcobucci-clock-polyfill.php"
                 ]
+=======
+                }
+>>>>>>> auth-api
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1384,7 +1404,11 @@
             ],
             "support": {
                 "issues": "https://github.com/lcobucci/jwt/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/lcobucci/jwt/tree/3.4.0"
+=======
+                "source": "https://github.com/lcobucci/jwt/tree/3.3.3"
+>>>>>>> auth-api
             },
             "funding": [
                 {
@@ -1396,7 +1420,11 @@
                     "type": "patreon"
                 }
             ],
+<<<<<<< HEAD
             "time": "2020-11-25T01:46:26+00:00"
+=======
+            "time": "2020-08-20T13:22:28+00:00"
+>>>>>>> auth-api
         },
         {
             "name": "league/commonmark",
